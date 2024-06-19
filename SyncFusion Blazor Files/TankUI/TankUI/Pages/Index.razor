@@ -1,0 +1,56 @@
+﻿
+@page "/"
+@using Syncfusion.Blazor.Cards
+@using Syncfusion.Blazor.Buttons
+@using Syncfusion.Blazor.Gantt
+<PageTitle>Tank Operation Details </PageTitle>
+<span class="pageheader"></span>
+<div class="controlregion">
+   
+ <h5 class="productheader"> WELCOME TO THE WORLD OF TANKS </h5>
+<ul class="ulstyle">
+	<li class="list">
+            <NavLink class="nav-link" href="independent-ui">
+ 	<span class="oi oi-align-center" aria-hidden="true"></span>Sample UI
+ 	</NavLink>
+ 	</li>
+     </ul>
+     </div>
+<br />
+<SfCard ID="Basic Card">
+    <CardHeader Title="Tank 1 Operations" />
+    <CardContent Content="Tank 1 Performed Washing Operation at 05/03/23 and 07/03/23 " />
+    <CardFooter>
+        <CardFooterContent>
+            <SfButton CssClass="e-btn e-outline e-secondary">Read More</SfButton>
+        </CardFooterContent>
+    </CardFooter>
+</SfCard>
+<br  />
+
+<SfChip>
+    <ChipItems>
+        <ChipItem Text="tank1" LeadingIconUrl="./kingfisher.png"></ChipItem>
+        <ChipItem Text="tank2A" LeadingIconUrl="./bee-eater.png"></ChipItem>
+        <ChipItem Text="tank2B" LeadingIconUrl="./cardinal.png"></ChipItem>
+        <ChipItem Text="tank3" LeadingIconUrl="./margaret.png"></ChipItem>
+    </ChipItems>
+</SfChip>
+<SfChip>
+    <ChipEvents OnClick="@OnClick"></ChipEvents>
+    <ChipItems>
+        <ChipItem Text="tank 1"></ChipItem>
+        <ChipItem Text="Tank 2A"></ChipItem>
+        <ChipItem Text="Tank 2B"></ChipItem>
+        <ChipItem Text="Tank C"></ChipItem>
+    </ChipItems>
+</SfChip>
+@code{
+    public string ChipText = "";
+    private void OnClick(Syncfusion.Blazor.Buttons.ChipEventArgs args)
+    {
+        ChipText = args.Text;
+        this.StateHasChanged();
+    }
+}
+

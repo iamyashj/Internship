@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Tempitems>
+
+<table>
+    <thead>
+        <tr>
+            <th>Item Name</th>
+            <th>Item Quantity</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Item_Name</td>
+                <td>@item.Qty</td>
+                <td>
+                   
+                    <button class="btn btn-danger btn-delete" data-id="@item.SrNO">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table><script>
+function deleteItem(id) {
+    $.ajax({
+        type: "POST",
+        url: "/Visitors/DeleteItem",
+        data: { id: id },
+        success: function (response) {
+            if (response === "success") {
+                $("#row_" + id).remove();
+            } else {
+                alert("Failed to delete item. Please try again.");
+            }
+        }
+    });
+}
+</script>

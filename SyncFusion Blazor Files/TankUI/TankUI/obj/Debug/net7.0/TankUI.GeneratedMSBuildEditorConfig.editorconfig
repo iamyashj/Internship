@@ -1,0 +1,393 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TankUI
+build_property.RootNamespace = TankUI
+build_property.ProjectDir = D:\SyncFusion Blazor Files\TankUI\TankUI\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\SyncFusion Blazor Files\TankUI\TankUI
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/Charts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/Component.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/AccordionFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQWNjb3JkaW9uRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/AppBarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQXBwQmFyRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/AutoCompleteFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQXV0b0NvbXBsZXRlRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/BarcodeGeneratorFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQmFyY29kZUdlbmVyYXRvckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/BreadcrumbFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQnJlYWRjcnVtYkZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/BulletChartFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQnVsbGV0Q2hhcnRGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQnV0dG9uRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ButtonGroupFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQnV0dG9uR3JvdXBGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/CalendarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ2FsZW5kYXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/CardFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ2FyZEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/CarouselFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ2Fyb3VzZWxGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ChartsFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ2hhcnRzRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/CheckboxFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ2hlY2tib3hGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ChipsFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ2hpcHNGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/CircularGaugeFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ2lyY3VsYXJHYXVnZUZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ColorPaletteFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ29sb3JQYWxldHRlRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ColorPickerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ29sb3JQaWNrZXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ComboBoxFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ29tYm9Cb3hGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ContextMenuFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cQ29udGV4dE1lbnVGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/DashboardLayoutFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRGFzaGJvYXJkTGF5b3V0RmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/DataGridFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRGF0YUdyaWRGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/DatePickerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRGF0ZVBpY2tlckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/DateRangePickerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRGF0ZVJhbmdlUGlja2VyRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/DateTimePickerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRGF0ZVRpbWVQaWNrZXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/DiagramFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRGlhZ3JhbUZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/DialogFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRGlhbG9nRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/DropdownListFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRHJvcGRvd25MaXN0RmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/DropdownMenuFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRHJvcGRvd25NZW51RmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/FileManagerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRmlsZU1hbmFnZXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/FileUploadFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRmlsZVVwbG9hZEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/FloatingActionButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cRmxvYXRpbmdBY3Rpb25CdXR0b25GZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/GanttChartFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cR2FudHRDaGFydEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/HeatMapChartFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cSGVhdE1hcENoYXJ0RmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/InplaceEditorFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cSW5wbGFjZUVkaXRvckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/InputMaskFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cSW5wdXRNYXNrRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/KanbanFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cS2FuYmFuRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/LinearGaugeFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cTGluZWFyR2F1Z2VGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ListBoxFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cTGlzdEJveEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ListViewFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cTGlzdFZpZXdGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/MapsFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cTWFwc0ZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/MediaQueryFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cTWVkaWFRdWVyeUZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/MentionFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cTWVudGlvbkZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/MenuBarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cTWVudUJhckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/MessageFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cTWVzc2FnZUZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/MultiSelectDropdownFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cTXVsdGlTZWxlY3REcm9wZG93bkZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/NumericTextBoxFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cTnVtZXJpY1RleHRCb3hGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/PivotTableFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cUGl2b3RUYWJsZUZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ProgressBarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cUHJvZ3Jlc3NCYXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ProgressButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cUHJvZ3Jlc3NCdXR0b25GZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/QueryBuilderFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cUXVlcnlCdWlsZGVyRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/RadioButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cUmFkaW9CdXR0b25GZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/RangeSelectorFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cUmFuZ2VTZWxlY3RvckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/RangeSliderFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cUmFuZ2VTbGlkZXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/RatingFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cUmF0aW5nRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/SchedulerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU2NoZWR1bGVyRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/SidebarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU2lkZWJhckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/SignatureFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU2lnbmF0dXJlRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/SkeletonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU2tlbGV0b25GZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/SmithChartFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU21pdGhDaGFydEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/SparklineChartsFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU3BhcmtsaW5lQ2hhcnRzRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/SpeedDialFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU3BlZWREaWFsRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/SpinnerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU3Bpbm5lckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/SplitButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU3BsaXRCdXR0b25GZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/SplitterFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU3BsaXR0ZXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/StockChartFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cU3RvY2tDaGFydEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/TabsFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cVGFic0ZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/TextBoxFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cVGV4dEJveEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/TimePickerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cVGltZVBpY2tlckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ToastFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cVG9hc3RGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ToggleSwitchButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cVG9nZ2xlU3dpdGNoQnV0dG9uRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/ToolbarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cVG9vbGJhckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/TooltipFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cVG9vbHRpcEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/TreeGridFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cVHJlZUdyaWRGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/TreeMapFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cVHJlZU1hcEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/compo/TreeViewFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tcG9cVHJlZVZpZXdGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/Independentui.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXBlbmRlbnR1aS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/Operation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BlcmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/Tank.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFuay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/TankOperation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFua09wZXJhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-g8xy8fn4tt
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wcvt3uq72h
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Areas/Identity/Pages/Account/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/TankUI/TankUI/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,459 @@
+﻿@page "/independent-ui"
+@*@attribute [Authorize(Roles = "Store, Administrator")]*@
+@using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.Calendars
+@using Syncfusion.Blazor.Grids
+
+
+<div class="col-12" style="background-color:blueviolet; border-radius:10px; border-bottom:double; border-left:double; border-bottom-color:#51005E">
+    <h4 style="padding-left:1%; font-weight:600; padding-right:1%; padding-top:1%; color:white; font-size:17px">Third Party Stock</h4>
+</div>
+<br />
+<br />
+<div class="row">
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Gate Entry No.</label>
+        <div class="input-group">
+
+            @* <SfTextBox @ref="TextBoxGate" Placeholder="Enter Gate Entry No" Created="@OnCreateGate"></SfTextBox>*@
+
+            <SfAutoComplete TValue="string" TItem="Gate" ShowPopupButton="true" Placeholder="Select Gate Entry No." DataSource="@Gateentry" Highlight="true" PopupHeight="350px">
+                <AutoCompleteFieldSettings Value="GateNo" />
+            </SfAutoComplete>
+
+        </div>
+    </div>
+    <div class="col">
+        <!-- Email input -->
+        <div class="form-outline">
+
+            <label class="form-label" for="form8Example2">Customer Name</label>
+            <SfAutoComplete TValue="string" TItem="Customers" ShowPopupButton="true" Placeholder="Select Customer Name" DataSource="@Customer" Highlight="true" PopupHeight="350px" Readonly="true">
+                <AutoCompleteFieldSettings Value="Name" />
+            </SfAutoComplete>
+
+
+        </div>
+    </div>
+    <div class="col">
+
+        <label class="form-label" for="form8Example1">Gate Entry Date</label>
+        <div class="input-group">
+            <SfDatePicker TValue="DateTime?" Value='@DateValue' Min='@MinDate' Max='@MaxDate' CssClass="e-popup-expand" Readonly="true"></SfDatePicker>
+        </div>
+    </div>
+
+
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Vehicle No.</label>
+        <div class="input-group">
+            <SfTextBox Placeholder="Enter Vehicle Number" @ref="TextBoxVehicle" Created="@OnCreateVehicle" Readonly="true"></SfTextBox>
+        </div>
+    </div>
+</div>
+
+<br />
+<div class="row">
+
+
+    <div class="col">
+
+        <label class="form-label" for="form8Example1">Customer's Challan No</label>
+        <div class="input-group">
+            <SfTextBox Placeholder="Enter Challan No" @ref="TextBoxChallan" Created="OnCreateChallan" Readonly="true"></SfTextBox>
+        </div>
+    </div>
+    <div class="col">
+
+        <label class="form-label" for="form8Example1">Customer Challan Date</label>
+        <div class="input-group">
+            <SfDatePicker TValue="DateTime?" Value='@DateValue' Min='@MinDate' Max='@MaxDate' CssClass="e-popup-expand" Readonly="true"></SfDatePicker>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Driver's Name</label>
+        <div class="input-group">
+            <SfTextBox Placeholder="Enter Driver's Name" @ref="TextBoxDriver" Created="OnCreateDriver" Readonly="true"></SfTextBox>
+        </div>
+    </div>
+    <div class="col-md-3">
+
+        <label class="form-label" for="form8Example1">Driver's Contact Number</label>
+        <div class="input-group">
+            <SfTextBox Placeholder="Enter Driver's Contact Number" @ref="TextBoxDriverContact" Created="OnCreateDriverContact" Readonly="true"></SfTextBox>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+
+
+
+<div class="col-12" style="background-color:blueviolet; border-radius:10px; border-bottom:double; border-left:double; border-bottom-color:#51005E">
+    <h3 style="padding-left:1%; font-weight:600; padding-right:1%; padding-top:1%; color:white; font-size:17px">Add Items</h3>
+</div>
+<br />
+<div class="row">
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Item Code</label>
+        <SfAutoComplete TValue="string" TItem="ItemCode" ShowPopupButton="true" Placeholder="Select Items" DataSource="@Item" Highlight="true" PopupHeight="350px">
+            <AutoCompleteFieldSettings Value="Name" />
+        </SfAutoComplete>
+    </div>
+
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Customer's Challan Inward</label>
+        <div class="input-group">
+
+            <SfTextBox @ref="TextBoxitem" Placeholder="Customer's Challan Inward" Created="@OnCreateItem"></SfTextBox>
+        </div>
+    </div>
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Actual Inward Qty</label>
+        <div class="input-group">
+
+            <SfTextBox @ref="TextBoxCustomerQty" Placeholder="Actual Inward Qty" Created="@OnCreateCustomerQty"></SfTextBox>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<br />
+<div class="row">
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Engraving Number Issued By</label>
+        <div class="input-group">
+            <SfAutoComplete TValue="string" TItem="Engraving" ShowPopupButton="true" Placeholder="Select Engraving Number Issued By" DataSource="@Engrave" Highlight="true" PopupHeight="350px">
+                <AutoCompleteFieldSettings Value="Name" />
+            </SfAutoComplete>
+
+        </div>
+    </div>
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Engraving Number Series</label>
+        <div class="input-group">
+
+            <SfTextBox @ref="TextBoxEngraveNumber" Placeholder="Engrave Number" Created="@OnCreateEngraveNumber"></SfTextBox>
+        </div>
+    </div>
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Engraving Number</label>
+        <div class="input-group">
+
+            <SfTextBox @ref="TextBoxRemark" Placeholder="Remark" Created="@OnCreateEngraveRemark"></SfTextBox>
+        </div>
+    </div>
+
+</div>
+<br />
+<div style="text-align: -webkit-center;">
+    <button type="button" class="btn btn-primary" style="background-color:blueviolet; margin-bottom:39px;border:blueviolet">Add Item</button>
+
+</div>
+
+
+<div class="col-12" style="background-color:blueviolet; border-radius:10px; border-bottom:double; border-left:double; border-bottom-color:#51005E">
+    <h3 style="padding-left:1%; font-weight:600; padding-right:1%; padding-top:1%; color:white; font-size:17px">Item Details</h3>
+</div>
+<br />
+<div class="col-lg-12 control-section">
+    <div class="content-wrapper">
+        <div class="row">
+
+            <SfGrid DataSource="@Orders">
+                <GridColumns>
+                    <GridColumn Field="@nameof(Order.Srno)" HeaderText="Sr.No" TextAlign="TextAlign.Left" Width="120"></GridColumn>
+                    <GridColumn Field="@nameof(Order.ItemCode)" HeaderText="Item Code" Width="150" TextAlign="TextAlign.Left"></GridColumn>
+                    <GridColumn Field="@nameof(Order.CustomerInwardQty)" HeaderText="Customer's Challan Inward" Width="150" TextAlign="TextAlign.Left"></GridColumn>
+                    <GridColumn Field="@nameof(Order.ActualInwardQty)" HeaderText="Actual Inward Qty" Width="150" TextAlign="TextAlign.Left" EditType="EditType.DefaultEdit"></GridColumn>
+
+                </GridColumns>
+            </SfGrid>
+        </div>
+    </div>
+</div>
+<br />
+
+<div style="text-align: -webkit-center;">
+    <button type="button" class="btn btn-primary" style="background-color:blueviolet; margin-bottom:39px;border:blueviolet">Save Third Party Stock</button>
+
+</div>
+
+
+@code {
+    SfTextBox TextBoxDateObj;
+    SfTextBox TextBoxAddress;
+    SfTextBox TextBoxDate;
+    SfTextBox TextBoxitem;
+    SfTextBox TextBoxVehicle;
+    SfTextBox TextBoxDriver;
+    SfTextBox TextBoxDriverContact;
+    SfTextBox TextBoxGate;
+    SfTextBox TextBoxChallan;
+    SfTextBox TextBoxCustomerQty;
+    SfTextBox TextBoxEngraveNumber;
+    SfTextBox TextBoxRemark;
+    //public List<Customer> CustomersModel { get; set; } = null!;
+    public int customerid { get; set; }
+
+    public void OnCreateAddress()
+    {
+        this.TextBoxAddress.AddIconAsync("append", "e-location-icon");
+    }
+    public void OnCreateCustomer()
+    {
+        this.TextBoxDateObj.AddIconAsync("append", "fa-solid fa-hashtag");
+    }
+    public void OnCreateItem()
+    {
+        this.TextBoxitem.AddIconAsync("append", "fa-solid fa-hashtag");
+    }
+    public void OnCreateDate()
+    {
+        this.TextBoxDate.AddIconAsync("append", "e-date-icon");
+    }
+    public DateTime? Value { get; set; } = new DateTime(2022, 12, 11, 11, 30, 00);
+    public void OnCreateVehicle()
+    {
+        this.TextBoxVehicle.AddIconAsync("append", "fa-solid fa-truck-moving");
+    }
+    public void OnCreateDriver()
+    {
+        this.TextBoxDriver.AddIconAsync("append", "fa-solid fa-user");
+    }
+    public void OnCreateDriverContact()
+    {
+        this.TextBoxDriverContact.AddIconAsync("append", "fa-solid fa-phone");
+    }
+    public void OnCreateGate()
+    {
+        this.TextBoxGate.AddIconAsync("append", "fa-solid fa-torii-gate");
+    }
+    public void OnCreateChallan()
+    {
+        this.TextBoxChallan.AddIconAsync("append", "fa-solid fa-file-lines");
+    }
+    public void OnCreateCustomerQty()
+    {
+        this.TextBoxCustomerQty.AddIconAsync("append", "fa-solid fa-hashtag");
+    }
+    public void OnCreateEngraveNumber()
+    {
+        this.TextBoxEngraveNumber.AddIconAsync("append", "fa-solid fa-hashtag");
+    }
+    public void OnCreateEngraveRemark()
+    {
+        this.TextBoxRemark.AddIconAsync("append", "fa-solid fa-hashtag");
+    }
+    // autocomplete
+    public class Countries
+    {
+        public string Name { get; set; }
+        public string Code { get; set; }
+    }
+    private List<Countries> Country = new List<Countries>
+    {
+        new Countries() { Name = "Australia", Code = "AU" },
+        new Countries() { Name = "Bermuda", Code = "BM" },
+        new Countries() { Name = "Canada", Code = "CA" },
+        new Countries() { Name = "Cameroon", Code = "CM" },
+        new Countries() { Name = "Denmark", Code = "DK" },
+        new Countries() { Name = "France", Code = "FR" },
+        new Countries() { Name = "Finland", Code = "FI" },
+        new Countries() { Name = "Germany", Code = "DE" },
+        new Countries() { Name = "Greenland", Code = "GL" },
+        new Countries() { Name = "Hong Kong", Code = "HK" },
+        new Countries() { Name = "India", Code = "IN" },
+        new Countries() { Name = "Italy", Code = "IT" },
+        new Countries() { Name = "Japan", Code = "JP" },
+        new Countries() { Name = "Mexico", Code = "MX" },
+        new Countries() { Name = "Norway", Code = "NO" },
+        new Countries() { Name = "Poland", Code = "PL" },
+        new Countries() { Name = "Switzerland", Code = "CH" },
+        new Countries() { Name = "United Kingdom", Code = "GB" },
+        new Countries() { Name = "United States", Code = "US" }
+    };
+
+    public class Engraving
+    {
+        public string Name { get; set; }
+
+    }
+    private List<Engraving> Engrave = new List<Engraving>
+    {
+        new Engraving() { Name = "Customer"},
+        new Engraving() { Name = "Sargam Industries"},
+
+    };
+    private List<ItemCode> Item = new List<ItemCode>
+    {
+        new ItemCode() { Name = "2GHV05171#P1"},
+       new ItemCode() { Name = "2GHV05171#P2"},
+       new ItemCode() { Name = "2GHV05171#P3"},
+       new ItemCode() { Name = "2GHV05171#P4"},
+       new ItemCode() { Name = "2GHV05171#P5"},
+       new ItemCode() { Name = "2GHV05171#P6"},
+       new ItemCode() { Name = "2GHV05171#P7"},
+       new ItemCode() { Name = "2GHV05171#P8"},
+    };
+    public class ItemCode
+    {
+        public string Name { get; set; }
+
+    }
+
+    // ComboBox
+    public string ComboBoxValue = "Game3";
+    public string ChangeValue { get; set; } = "Basketball";
+    //public void OnChange(Syncfusion.Blazor.DropDowns.ChangeEventArgs<string, ItemCode> args)
+    //{
+    //    this.ChangeValue = args.ItemData?;
+    //}
+
+    public class Customers
+    {
+        public string Name { get; set; }
+        public int CustomerId { get; set; }
+    }
+
+    private List<Customers> Customer = new List<Customers>
+    {
+        new Customers() { Name = "Cosmos", CustomerId = 1},
+        new Customers() { Name = "Vidya Metcorp", CustomerId = 2 },
+        new Customers() { Name = "Hitachi", CustomerId = 3 },
+        new Customers() { Name = "Shefield", CustomerId = 4 },
+        new Customers() { Name = "Aanjaney", CustomerId = 5},
+        new Customers() { Name = "Inspiron", CustomerId = 6},
+        new Customers() { Name = "Victory Precision", CustomerId = 7},
+        new Customers() { Name = "Alutech", CustomerId = 8},
+        new Customers() { Name = "SEE", CustomerId = 9},
+
+    };
+
+    public class Gate
+    {
+
+        public int GateNo { get; set; }
+    }
+    private List<Gate> Gateentry = new List<Gate>
+    {
+        new Gate(){GateNo = 824},
+        new Gate(){GateNo = 825},
+        new Gate(){GateNo = 839},
+        new Gate(){GateNo = 840},
+        new Gate(){GateNo = 845},
+        new Gate(){GateNo = 846},
+
+
+    };
+    // date picker
+    public DateTime? DateValue { get; set; } = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 10);
+    public DateTime MinDate { get; set; } = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 05);
+    public DateTime MaxDate { get; set; } = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 27);
+
+    public List<Order> Orders { get; set; }
+
+    protected override void OnInitialized()
+    {
+
+        Orders = Enumerable.Range(1, 5).Select(x => new Order()
+            {
+                Srno = 0 + x,
+                ItemCode = (new string[] { "2GHV05171#P1", "2GHV05171#P2", "2GHV05171#P3", "2GHV05171#P4", "2GHV05171#P5", "2GHV05171#P6", "2GHV05171#P7", "2GHV05171#P8" })[new Random().Next(5)],
+                CustomerInwardQty = (new string[] { "30", "60", "144", "324", "493" })[new Random().Next(5)],
+                ActualInwardQty = (new string[] { "30", "60", "144", "324", "493" })[new Random().Next(5)],
+            }).ToList();
+    }
+
+    public class Order
+    {
+        public int? Srno { get; set; }
+        public string? ItemCode { get; set; }
+        public string? CustomerInwardQty { get; set; }
+        public string? ActualInwardQty { get; set; }
+        //public double? PlatingArea { get; set; }
+        //public double? MaskingArea { get; set; }
+        //public double? TotalArea { get; set; }
+    }
+}
+<style>
+    .e-user-icon::before {
+        content: '\e7b4';
+        font-family: e-icons;
+        font-weight: bold;
+    }
+
+    .e-location-icon::before {
+        content: '\e756';
+        font-family: e-icons;
+        font-weight: bold;
+    }
+
+    .e-search-icon::before {
+        content: '\e7b4';
+        font-family: e-icons;
+    }
+
+
+    .e-date-icon::before {
+        content: '\e901';
+        font-family: e-icons;
+    }
+
+    .multiline {
+        margin-top: 60px;
+        width: 20%;
+    }
+
+    .control-wrapper {
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 50px 0px 0px;
+    }
+
+    .example-label {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .property-panel-content {
+        padding: 0px 0px 15px 0px;
+    }
+
+        .property-panel-content:last-child {
+            padding: 0px 0px 40px 0px;
+        }
+
+    .e-ddl.e-input-group.e-control-wrapper .e-ddl-icon::before {
+        content: '\e764';
+        font-family: 'e-icons';
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .main e-content-animation {
+        padding: 61px 55px;
+    }
+</style>
+
+

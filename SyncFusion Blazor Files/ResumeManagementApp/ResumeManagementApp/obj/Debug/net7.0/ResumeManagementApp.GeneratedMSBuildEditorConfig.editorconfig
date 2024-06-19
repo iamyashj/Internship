@@ -1,0 +1,393 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ResumeManagementApp
+build_property.RootNamespace = ResumeManagementApp
+build_property.ProjectDir = D:\SyncFusion Blazor Files\ResumeManagementApp\ResumeManagementApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\SyncFusion Blazor Files\ResumeManagementApp\ResumeManagementApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/AccordionFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3JkaW9uRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/AppBarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwQmFyRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/AutoCompleteFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b0NvbXBsZXRlRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/BarcodeGeneratorFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFyY29kZUdlbmVyYXRvckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/BreadcrumbFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJlYWRjcnVtYkZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/BulletChartFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVsbGV0Q2hhcnRGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV0dG9uRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ButtonGroupFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV0dG9uR3JvdXBGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/CalendarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsZW5kYXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/CardFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/CarouselFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fyb3VzZWxGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ChartsFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcnRzRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/CheckboxFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tib3hGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ChipsFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hpcHNGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/CircularGaugeFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2lyY3VsYXJHYXVnZUZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ColorPaletteFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29sb3JQYWxldHRlRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ColorPickerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29sb3JQaWNrZXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ComboBoxFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tYm9Cb3hGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ContextMenuFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGV4dE1lbnVGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/DashboardLayoutFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkTGF5b3V0RmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/DataGridFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YUdyaWRGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/DatePickerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0ZVBpY2tlckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/DateRangePickerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0ZVJhbmdlUGlja2VyRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/DateTimePickerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0ZVRpbWVQaWNrZXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/DiagramFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlhZ3JhbUZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/DialogFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlhbG9nRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/DropdownListFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJvcGRvd25MaXN0RmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/DropdownMenuFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJvcGRvd25NZW51RmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ExcelFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhjZWxGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/FileManagerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlsZU1hbmFnZXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/FileUploadFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlsZVVwbG9hZEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/FloatingActionButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxvYXRpbmdBY3Rpb25CdXR0b25GZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/GanttChartFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FudHRDaGFydEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/HeatMapChartFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVhdE1hcENoYXJ0RmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/InplaceEditorFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5wbGFjZUVkaXRvckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/InputMaskFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5wdXRNYXNrRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/KanbanFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2FuYmFuRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/LinearGaugeFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGluZWFyR2F1Z2VGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ListBoxFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdEJveEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ListViewFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFZpZXdGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/MapsFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFwc0ZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/MediaQueryFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWFRdWVyeUZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/MentionFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudGlvbkZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/MenuBarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudUJhckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/MessageFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FnZUZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/MultiSelectDropdownFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVsdGlTZWxlY3REcm9wZG93bkZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/NumericTextBoxFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnVtZXJpY1RleHRCb3hGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/PDFFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUERGRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/PDFViewerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUERGVmlld2VyRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/PivotTableFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl2b3RUYWJsZUZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/PowerPointFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG93ZXJQb2ludEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ProgressBarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3Jlc3NCYXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ProgressButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3Jlc3NCdXR0b25GZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/QueryBuilderFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlcnlCdWlsZGVyRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/RadioButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFkaW9CdXR0b25GZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/RangeSelectorFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFuZ2VTZWxlY3RvckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/RangeSliderFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFuZ2VTbGlkZXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/RatingFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmF0aW5nRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/RichTextEditorFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmljaFRleHRFZGl0b3JGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/SchedulerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NoZWR1bGVyRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/SidebarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lkZWJhckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/SignatureFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbmF0dXJlRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/SkeletonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2tlbGV0b25GZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/SmithChartFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU21pdGhDaGFydEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/SparklineChartsFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BhcmtsaW5lQ2hhcnRzRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/SpeedDialFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlZWREaWFsRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/SpinnerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Bpbm5lckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/SplitButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BsaXRCdXR0b25GZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/SplitterFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BsaXR0ZXJGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/StockChartFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvY2tDaGFydEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/TabsFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFic0ZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/TextBoxFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGV4dEJveEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/TimePickerFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGltZVBpY2tlckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ToastFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9hc3RGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ToggleSwitchButtonFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9nZ2xlU3dpdGNoQnV0dG9uRmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/ToolbarFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9vbGJhckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/TooltipFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9vbHRpcEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/TreeGridFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlZUdyaWRGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/TreeMapFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlZU1hcEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/TreeViewFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlZVZpZXdGZWF0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/WordFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29yZEZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/WordProcessorFeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29yZFByb2Nlc3NvckZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-to3x5k4r2b
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-nt9ffgwj0u
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Areas/Identity/Pages/Account/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SyncFusion Blazor Files/ResumeManagementApp/ResumeManagementApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,142 @@
+﻿
+
+@using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Grids
+@using Syncfusion.Blazor.Inputs
+
+
+<div class="col-12" style="background-color:blueviolet; border-radius:10px; border-bottom:double; border-left:double; border-bottom-color:#51005E">
+    <h3 style="padding-left:1%; font-weight:600; padding-right:1%; padding-top:1%; color:white; font-size:17px">Add Tanks</h3>
+</div>
+<br />
+<div class="row">
+
+
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Tank Name</label>
+        <div class="input-group">
+
+            <SfTextBox @ref="TextBoxTankName" Placeholder="Enter Tank Name" Created="@OnCreateTankName"></SfTextBox>
+        </div>
+    </div>
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Capacity of Tank</label>
+        <div class="input-group">
+
+            <SfTextBox @ref="TextBoxTankCapacity" Placeholder="Enter Capacity of tank in ltrs" Created="@OnCreateTankCapacity"></SfTextBox>
+        </div>
+    </div>
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Color of Tank</label>
+        <div class="input-group">
+
+            <SfTextBox @ref="TextBoxTankColor" Placeholder="Enter Color of tank " Created="@OnCreateTankColor"></SfTextBox>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="col-12" style="background-color:blueviolet; border-radius:10px; border-bottom:double; border-left:double; border-bottom-color:#51005E">
+    <h3 style="padding-left:1%; font-weight:600; padding-right:1%; padding-top:1%; color:white; font-size:17px">Tank Details</h3>
+</div>
+<br />
+<div class="col-lg-12 control-section">
+    <div class="content-wrapper">
+        <div class="row">
+
+            <SfGrid DataSource="@tanks" AllowPaging="true">
+                <GridColumns>
+                    <GridColumn Field="@nameof(Tanka.Srno)" HeaderText="Sr.No" TextAlign="TextAlign.Left" Width="120"></GridColumn>
+                    <GridColumn Field="@nameof(Tanka.Id)" HeaderText="Tank Id" Width="150" TextAlign="TextAlign.Left"></GridColumn>
+                    <GridColumn Field="@nameof(Tanka.Name)" HeaderText="Tank Name" Width="150" TextAlign="TextAlign.Left"></GridColumn>
+                    <GridColumn Field="@nameof(Tanka.Color)" HeaderText="Tank Color" Width="150" TextAlign="TextAlign.Left"></GridColumn>
+                    <GridColumn Field="@nameof(Tanka.Capacity)" HeaderText="Tank Capacity in ltrs" Width="150" TextAlign="TextAlign.Left" EditType="EditType.DefaultEdit"></GridColumn>
+
+                </GridColumns>
+            </SfGrid>
+        </div>
+    </div>
+</div>
+<br />
+
+<div style="text-align: -webkit-center;">
+    <button type="button" class="btn btn-primary" style="background-color:blueviolet; margin-bottom:39px;border:blueviolet">Save Tank</button>
+
+</div>
+
+
+
+
+
+@code {
+    SfTextBox TextBoxTankCapacity;
+    SfTextBox TextBoxTankColor;
+    SfTextBox TextBoxTankName;
+
+
+    public void OnCreateTankCapacity()
+    {
+        this.TextBoxTankCapacity.AddIconAsync("append", "fa-solid fa-hashtag");
+    }
+    public void OnCreateTankName()
+    {
+        this.TextBoxTankName.AddIconAsync("append", "fa-solid fa-torii-gate");
+    }
+    public void OnCreateTankColor()
+    {
+        this.TextBoxTankColor.AddIconAsync("append", "fa-solid fa-file-lines");
+    }
+
+    private List<TankId> TankCode = new List<TankId>
+    {
+        new TankId() { Name = "2GHV05171#P1"},
+       new TankId() { Name = "2GHV05171#P2"},
+       new TankId() { Name = "2GHV05171#P3"},
+       new TankId() { Name = "2GHV05171#P4"},
+       new TankId() { Name = "2GHV05171#P5"},
+       new TankId() { Name = "2GHV05171#P6"},
+       new TankId() { Name = "2GHV05171#P7"},
+       new TankId() { Name = "2GHV05171#P8"},
+    };
+    public class TankId
+    {
+        public string Name { get; set; }
+
+    }
+
+    public List<string> colors = new List<string> { "Red", "Green", "Blue", "Yellow", "Orange" };
+    public List<Tanka> tanks { get; set; }
+
+    protected override void OnInitialized()
+    {
+        tanks = Enumerable.Range(1, 5).Select(x => new Tanka()
+            {
+                Srno = 0 + x,
+                Id = (new string[] { "2GHV05171#P1", "2GHV05171#P2", "2GHV05171#P3", "2GHV05171#P4", "2GHV05171#P5", "2GHV05171#P6", "2GHV05171#P7", "2GHV05171#P8" })[new Random().Next(5)],
+                Capacity = (new int[] { 300, 600, 144, 324, 493 })[new Random().Next(5)],
+                Color = (new string[] { "Red", "Green", "Blue", "Yellow", "Orange" })[new Random().Next(5)],
+                Name = (new string[] { "Tank1", "Tank2", "Tank3", "Tank4", "Tank5" })[new Random().Next(5)]
+            }).ToList();
+
+    }
+
+
+
+    public class Tanka
+    {
+        public int? Srno { get; set; }
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Color { get; set; }
+        public int Capacity { get; set; }
+
+    }
+
+}

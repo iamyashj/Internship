@@ -1,0 +1,232 @@
+﻿@page "/operation"
+@using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Buttons
+@using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.Calendars
+@using Syncfusion.Blazor.Grids
+@using System.Collections.Generic
+
+<div class="col-12" style="background-color:blueviolet; border-radius:10px; border-bottom:double; border-left:double; border-bottom-color:#51005E">
+    <h2 style="padding-left:1%; font-weight:600; padding-right:1%; padding-top:1%; color:white; font-size:17px">Operation Page</h2>
+</div>
+<br />
+<br />
+<div class="row">
+<div class="container-fluid">
+    <div class="row">
+            <div class="col">
+                <!-- id input -->
+                <label class="form-label" for="form8Example1">OperationId</label>
+                <SfAutoComplete TValue="int" TItem="OperationId" ShowPopupButton="true" Placeholder="Select Operation ID" DataSource="@OperationCode" Highlight="true" PopupHeight="350px">
+                    <AutoCompleteFieldSettings Value="Id" />
+                </SfAutoComplete>
+            </div>
+
+            <div class="col-md-3">
+                <!-- id input -->
+                <label class="form-label" for="form8Example1">Operation Name</label>
+                <div class="input-group">
+                    <SfTextBox Placeholder="Enter Operation's Name" @ref="TextBoxOperationName" Created=@OnCreateOperationName ></SfTextBox>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <label class="form-label" for="form8Example1">Required Operation  Time</label>
+                <SfTimePicker TValue="DateTime?" Value="@TimeValue" Step=60 Format="HH:mm"></SfTimePicker>
+                </div>
+            @*<div class="col">
+                <label class="form-label" for="form8Example1">Required Operation  Time</label>
+                <div class="input-group">
+                    <div id="wrapper">
+                        <SfTimePicker TValue="DateTime?" Value="@TimeValue"
+                                      Min="@MinTime"
+                                      Max="@MaxTime"
+                                      Format="HH:mm"
+                                      Step="30"></SfTimePicker>
+                    </div>
+                    
+                </div>
+            </div>*@
+    </div>
+        <br />
+        <br />
+        
+
+    <div class="row mt-3">
+       @* <div class="col-8">
+            <button type="button" class="btn btn-success" allign="center" onclick="AddOperation()">Add Operation</button>
+        </div>*@
+            <div style="text-align: -webkit-center;">
+                <button type="button" class="btn btn-primary" style="background-color:blueviolet; margin-bottom:39px;border:blueviolet">Add Operation</button>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-12" style="background-color:blueviolet; border-radius:10px; border-bottom:double; border-left:double; border-bottom-color:#51005E">
+    <h3 style="padding-left:1%; font-weight:600; padding-right:1%; padding-top:1%; color:white; font-size:17px">Operation Details</h3>
+</div>
+<br />
+<div class="col-lg-12 control-section">
+    <div class="content-wrapper">
+        <div class="row">
+
+            <SfGrid DataSource="@operations">
+                <GridColumns>
+                    <GridColumn Field="@nameof(Operationa.Srno)" HeaderText="Sr.No" TextAlign="TextAlign.Left" Width="120"></GridColumn>
+                    <GridColumn Field="@nameof(Operationa.Id)" HeaderText="Operation Id" Width="150" TextAlign="TextAlign.Left"></GridColumn>
+                    <GridColumn Field="@nameof(Operationa.Name)" HeaderText="Operation Name" Width="150" TextAlign="TextAlign.Left"></GridColumn>
+                   
+
+                </GridColumns>
+            </SfGrid>
+        </div>
+    </div>
+</div>
+<br />
+@code {
+    //SfTextBox TextBoxTime;
+
+    //public Operation(SfTextBox textBoxTime) => TextBoxTime = textBoxTime;
+
+    SfTextBox TextBoxOperationName;
+    SfTextBox TextBoxOperationId;
+  
+
+
+    public void OnCreateOperationName()
+    {
+        this.TextBoxOperationName.AddIconAsync("append", "fa-solid fa-user");
+    }
+    public DateTime TimeValue { get; set; } = DateTime.Now;
+    //public void OnCreateDate()
+    //{
+    //    this.TextBoxTime.AddIconAsync("append", "e-time-icon");
+
+    ////}
+    //public DateTime? Value { get; set; } = new DateTime(2022, 12, 11, 11, 30, 00);
+
+    public void OnCreateOperationId()
+    {
+        this.TextBoxOperationId.AddIconAsync("append", "fa-solid fa-hashtag");
+    }
+  
+    private List<OperationId> OperationCode = new List<OperationId>
+    {
+       new OperationId() { id = 1001},
+       new OperationId() { id = 1002},
+       new OperationId() { id = 1003},
+       new OperationId() { id = 1004},
+       new OperationId() { id = 1005},
+       new OperationId() { id = 1006},
+       new OperationId() { id = 1007},
+       new OperationId() { id = 1008},
+    };
+    public class OperationId
+    {
+        public int id { get; set; }
+
+    }
+
+    // date picker
+    //public DateTime? TimeValue { get; set; } = new DateTime(DateTime.Now.Hour, DateTime.Now.Minute, 10);
+    //public DateTime MinTime{ get; set; } = new DateTime(DateTime.Now.Hour, DateTime.Now.Minute, 05);
+    //public DateTime MaxTime { get; set; } = new DateTime(DateTime.Now.Hour, DateTime.Now.Minute, 27);
+
+    public List<Operationa> operations { get; set; }
+     protected override void OnInitialized()
+    {
+        operations = Enumerable.Range(1, 5).Select(x => new Operationa()
+            {
+                Srno = 0 + x,
+                Id = (new int[] { 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008 })[new Random().Next(5)],
+               Name = (new string[] { "Washing", "Drying", "Ironing", "Parameter testing", "Adding Material" })[new Random().Next(5)]
+            }).ToList();
+
+    }
+  
+
+
+
+
+
+    public class Operationa
+    {
+        public int? Srno { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        //public DateTime? Time { get; set; }
+     
+
+    }
+
+}
+<style>
+    #wrapper {
+        max-width: 300px;
+        margin: 0px auto;
+        padding-top: 20px;
+    }
+    .e-user-icon::before {
+        content: '\e7b4';
+        font-family: e-icons;
+        font-weight: bold;
+    }
+
+    .e-location-icon::before {
+        content: '\e756';
+        font-family: e-icons;
+        font-weight: bold;
+    }
+
+    .e-search-icon::before {
+        content: '\e7b4';
+        font-family: e-icons;
+    }
+
+/*
+    .e-date-icon::before {
+        content: '\e901';
+        font-family: e-icons;
+    }*/
+
+    .multiline {
+        margin-top: 60px;
+        width: 20%;
+    }
+
+    .control-wrapper {
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 50px 0px 0px;
+    }
+
+    .example-label {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .property-panel-content {
+        padding: 0px 0px 15px 0px;
+    }
+
+        .property-panel-content:last-child {
+            padding: 0px 0px 40px 0px;
+        }
+
+    .e-ddl.e-input-group.e-control-wrapper .e-ddl-icon::before {
+        content: '\e764';
+        font-family: 'e-icons';
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .main e-content-animation {
+        padding: 61px 55px;
+    }
+</style>
+
+
+

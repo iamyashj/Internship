@@ -1,0 +1,216 @@
+﻿@page "/tank"
+@using Syncfusion.Blazor.Buttons
+@using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Grids
+@using Syncfusion.Blazor.Inputs
+@using System.Collections.Generic
+
+<div class="col-12" style="background-color:blueviolet; border-radius:10px; border-bottom:double; border-left:double; border-bottom-color:#51005E">
+    <h3 style="padding-left:1%; font-weight:600; padding-right:1%; padding-top:1%; color:white; font-size:17px">Add Tanks</h3>
+</div>
+<br />
+<div class="row">
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">TankId</label>
+        <SfAutoComplete TValue="int" TItem="TankId" ShowPopupButton="true" Placeholder="Select Tank ID" DataSource="@TankCode" Highlight="true" PopupHeight="350px">
+            <AutoCompleteFieldSettings Value="Name" />
+        </SfAutoComplete>
+    </div>
+
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Tank Name</label>
+        <div class="input-group">
+
+            <SfTextBox @ref="TextBoxTankName" Placeholder="Enter Tank Name" Created="@OnCreateTankName"></SfTextBox>
+        </div>
+    </div>
+
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Capacity of Tank</label>
+        <div class="input-group">
+
+            <SfTextBox @ref="TextBoxTankCapacity" Placeholder="Enter Capacity of tank in ltrs" Created="@OnCreateTankCapacity"></SfTextBox>
+        </div>
+    </div>
+    <div class="col">
+        <!-- Name input -->
+        <label class="form-label" for="form8Example1">Description</label>
+        <div class="input-group">
+
+            <SfTextBox @ref="TextBoxTankDescription" Placeholder="Enter Description of tank " Created="@OnCreateTankDescription"></SfTextBox>
+        </div>
+    </div>
+
+</div>
+
+<br/>
+<br/>
+
+<div style="text-align: -webkit-center;">
+    <button type="button" class="btn btn-primary" style="background-color:blueviolet; margin-bottom:39px;border:blueviolet">Add Tank</button>
+
+</div>
+
+
+<div class="col-12" style="background-color:blueviolet; border-radius:10px; border-bottom:double; border-left:double; border-bottom-color:#51005E">
+    <h3 style="padding-left:1%; font-weight:600; padding-right:1%; padding-top:1%; color:white; font-size:17px">Tank Details</h3>
+</div>
+<br />
+<div class="col-lg-12 control-section">
+    <div class="content-wrapper">
+        <div class="row">
+
+            <SfGrid DataSource="@tanks" AllowPaging="true">
+                <GridColumns>
+                    <GridColumn Field="@nameof(Tanka.Srno)" HeaderText="Sr.No" TextAlign="TextAlign.Left" Width="120"></GridColumn>
+                    <GridColumn Field="@nameof(Tanka.Id)" HeaderText="Tank Id" Width="150" TextAlign="TextAlign.Left"></GridColumn>
+                    <GridColumn Field="@nameof(Tanka.Name)" HeaderText="Tank Name" Width="150" TextAlign="TextAlign.Left"></GridColumn>
+                    <GridColumn Field="@nameof(Tanka.Description)" HeaderText="Tank Description" Width="150" TextAlign="TextAlign.Left"></GridColumn>
+                    <GridColumn Field="@nameof(Tanka.Capacity)" HeaderText="Tank Capacity in ltrs" Width="150" TextAlign="TextAlign.Left" EditType="EditType.DefaultEdit"></GridColumn>
+
+                </GridColumns>
+            </SfGrid>
+        </div>
+    </div>
+</div>
+<br />
+
+<div style="text-align: -webkit-center;">
+    <button type="button" class="btn btn-primary" style="background-color:blueviolet; margin-bottom:39px;border:blueviolet">Save Tank</button>
+
+</div>
+
+
+
+
+
+@code {
+    SfTextBox TextBoxTankCapacity;
+    SfTextBox TextBoxTankDescription;
+    SfTextBox TextBoxTankName;
+
+
+    public void OnCreateTankCapacity()
+    {
+        this.TextBoxTankCapacity.AddIconAsync("append", "fa-solid fa-hashtag");
+    }
+    public void OnCreateTankName()
+    {
+        this.TextBoxTankName.AddIconAsync("append", "fa-solid fa-torii-gate");
+    }
+    public void OnCreateTankDescription()
+    {
+        this.TextBoxTankDescription.AddIconAsync("append", "fa-solid fa-file-lines");
+    }
+
+     private List<TankId> TankCode = new List<TankId>
+    {
+        new TankId() { Name = 101},
+        new TankId() { Name = 102},
+        new TankId() { Name = 103},
+        new TankId() { Name = 104},
+        new TankId() { Name = 105},
+        new TankId() { Name = 106},
+        new TankId() { Name = 107},
+        new TankId() { Name = 108}
+      
+    };
+    public class TankId
+    {
+        public int Name { get; set; }
+
+    }
+   
+    public List<string> Descriptions = new List<string> { "Soap", "Soap", "Soap", "Soap", "Soap" };
+    public List<Tanka> tanks { get; set; }
+
+    protected override void OnInitialized()
+    {
+          tanks = Enumerable.Range(1, 5).Select(x => new Tanka()
+            {
+                Srno = 0 + x,
+                Id = 101 + x,
+                Capacity = (new int[] { 300 ,  600 , 144 , 324 , 493 })[new Random().Next(5)],
+                Description = (new string[] { "Soap", "Soap", "Soap", "Soap", "Soap" })[new Random().Next(5)],
+                Name = (new string[] { "Tank1", "Tank2", "Tank3", "Tank4", "Tank5" })[new Random().Next(5)]
+            }).ToList();
+         
+    }
+
+
+
+    public class Tanka
+    {
+        public int? Srno { get; set; }
+        public int? Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public int Capacity { get; set; }
+
+    }
+   
+}
+<style>
+    .e-user-icon::before {
+        content: '\e7b4';
+        font-family: e-icons;
+        font-weight: bold;
+    }
+
+    .e-location-icon::before {
+        content: '\e756';
+        font-family: e-icons;
+        font-weight: bold;
+    }
+
+    .e-search-icon::before {
+        content: '\e7b4';
+        font-family: e-icons;
+    }
+
+
+    .e-date-icon::before {
+        content: '\e901';
+        font-family: e-icons;
+    }
+
+    .multiline {
+        margin-top: 60px;
+        width: 20%;
+    }
+
+    .control-wrapper {
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 50px 0px 0px;
+    }
+
+    .example-label {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .property-panel-content {
+        padding: 0px 0px 15px 0px;
+    }
+
+        .property-panel-content:last-child {
+            padding: 0px 0px 40px 0px;
+        }
+
+    .e-ddl.e-input-group.e-control-wrapper .e-ddl-icon::before {
+        content: '\e764';
+        font-family: 'e-icons';
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .main e-content-animation {
+        padding: 61px 55px;
+    }
+</style>
